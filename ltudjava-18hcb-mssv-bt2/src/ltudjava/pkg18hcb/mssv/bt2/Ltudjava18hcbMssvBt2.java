@@ -5,6 +5,8 @@
  */
 package ltudjava.pkg18hcb.mssv.bt2;
 
+import ltudjava.pkg18hcb.mssv.bt2.View.Login;
+
 /**
  *
  * @author Vip
@@ -15,7 +17,7 @@ public class Ltudjava18hcbMssvBt2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Login().setVisible(true);
     }
     
 }
