@@ -58,7 +58,7 @@ public class Query {
         BangDiemModel bangDiem= GetBangDiem(tenLop,list);
         System.out.println(bangDiem.tenLop);
         for(DiemDetails diemItem:bangDiem.diemDetail){
-            System.out.println(diemItem.HoTen+" "+diemItem.MSSV+" "+diemItem.STT+" "+diemItem.ÐiemCK+" "+diemItem.ÐiemGK+" "+diemItem.ÐiemKhac+" "+diemItem.ÐiemTong+" ");
+            System.out.println(diemItem.HoTen+" "+diemItem.MSSV+" "+diemItem.STT+" "+diemItem.DiemCK+" "+diemItem.DiemGK+" "+diemItem.DiemKhac+" "+diemItem.DiemTong+" ");
         }
     }
     public BangDiemModel GetBangDiem(String tenLop,List<BangDiemModel> list){

@@ -13,8 +13,8 @@ public class DiemDetails {
     public String STT;
     public String MSSV;
     public String HoTen;
-    public String ÐiemGK;
-    public String ÐiemCK;
-    public String ÐiemKhac;
-    public String ÐiemTong;
+    public String DiemGK;
+    public String DiemCK;
+    public String DiemKhac;
+    public String DiemTong;
 }

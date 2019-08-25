@@ -70,10 +70,10 @@ public class ImportData {
               diem.STT=thisLine.split(",")[0].trim();
               diem.MSSV=thisLine.split(",")[1].trim();
               diem.HoTen=thisLine.split(",")[2].trim();
-              diem.ÐiemGK=thisLine.split(",")[3].trim();
-              diem.ÐiemCK=thisLine.split(",")[4].trim();
-              diem.ÐiemKhac=thisLine.split(",")[5].trim();
-              diem.ÐiemTong=thisLine.split(",")[6].trim();
+              diem.DiemGK=thisLine.split(",")[3].trim();
+              diem.DiemCK=thisLine.split(",")[4].trim();
+              diem.DiemKhac=thisLine.split(",")[5].trim();
+              diem.DiemTong=thisLine.split(",")[6].trim();
               listDiem.add(diem);
             }
          }     

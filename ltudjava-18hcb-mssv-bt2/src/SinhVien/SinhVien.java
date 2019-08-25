@@ -39,10 +39,10 @@ public class SinhVien {
         for(BangDiemModel itemBangDiem:listBD){
             for(DiemDetails itemDetails:itemBangDiem.diemDetail){
                 if(itemDetails.MSSV.equals(mSSV)){
-                  itemDetails.ÐiemCK=diemCK;
-                  itemDetails.ÐiemGK=diemGK;
-                  itemDetails.ÐiemKhac=diemKhac;
-                  itemDetails.ÐiemTong=diemTong;
+                  itemDetails.DiemCK=diemCK;
+                  itemDetails.DiemGK=diemGK;
+                  itemDetails.DiemKhac=diemKhac;
+                  itemDetails.DiemTong=diemTong;
                 }
             }
         }
@@ -59,6 +59,6 @@ public class SinhVien {
     }
     public void XemDiemSinhVien(String mSSV,BangDiemModel bangDiem){
         DiemDetails diem=GetDiemSinhVien(mSSV,bangDiem);
-        System.out.println(diem.HoTen+" "+diem.MSSV+" "+diem.ÐiemGK+" "+diem.ÐiemCK+" "+diem.ÐiemKhac+" "+diem.ÐiemTong);
+        System.out.println(diem.HoTen+" "+diem.MSSV+" "+diem.DiemGK+" "+diem.DiemCK+" "+diem.DiemKhac+" "+diem.DiemTong);
     }
 }
